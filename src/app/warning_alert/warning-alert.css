@@ -1,0 +1,23 @@
+.warning-alert {
+    border: 1px solid #eee;
+    border-radius: 4px;
+    margin: 2rem auto;
+    max-width: 50%;
+}
+
+.warning-alert__container {
+    padding: 2rem;
+    text-align: center;
+}
+
+.warning-alert__message {
+    color: #e70f0f;
+}
+
+.warning-alert__accept {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    font-weight: bold;
+    margin-top: 1rem;
+}
