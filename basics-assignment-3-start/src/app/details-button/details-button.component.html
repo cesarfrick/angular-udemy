@@ -1,0 +1,11 @@
+<button (click)="onButtonClicked()" class="btn btn-primary">Display Details</button>
+<p *ngIf="toggler === true">Secret Password: Tuna</p>
+
+<section *ngIf="clicks.length > 0">
+    <p>Current Clicks:</p>
+    <ul>
+        <li *ngFor="let click of clicks" [ngStyle]="{backgroundColor: getBackgroundColor(click)}" [ngClass]="{'over-five': click >= 5}">
+            {{click}}
+        </li>
+    </ul>
+</section>
